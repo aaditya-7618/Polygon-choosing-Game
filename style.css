@@ -1,0 +1,109 @@
+body {
+  background-color: aqua;
+}
+
+#accountBalance{
+  font-size: 20px;
+  text-align: right;
+  font-weight: 1000;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#userChoice{
+  display: flex;
+  justify-content: center;
+  /* margin: 20px; */
+  padding: 20px;
+}
+
+.txt{
+  font-size: 13px;
+}
+
+#polygons{
+  border-radius: 5px;
+  border: 3px solid black;
+  margin-left: 10px;
+  margin-top: 28px;
+  width: 200px;
+  height: 40px;
+}
+
+#choices{
+  margin-top: 10px;
+}
+
+.ch{
+  margin: 0;
+  text-align: end;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#imgDiv{
+  height: 100px;
+  width: 130px;
+  background-color: white;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#imgOuter{
+  display: flex;
+  justify-content: center;
+  margin: 50px 200px;
+}
+
+#imgTag{
+  max-height: 100px;
+  max-width: 130px;
+}
+
+#main-div {
+  padding-right: 30px;
+  border-right-style: dotted;
+  border-width: 10px;
+  width: 60%;
+  margin: 50px 20%;
+}
+
+#butDiv{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+#resetDiv{
+  margin-top: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.resetTheGame{
+  background-color: red !important;
+  align-items: end;
+}
+
+.but{
+  background-color: black;
+  color: white;
+  margin: 20px 10px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 900;
+  min-width: 200px;
+  cursor: pointer;
+}

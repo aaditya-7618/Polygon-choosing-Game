@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Choose Polygon</title>
+  </head>
+  <body>
+    <div id="main-div">
+      <div id="accountBalance"></div>
+
+      <div id="choices">
+        <p class="ch">Correct choice : 10 Points</p>
+        <p class="ch">Wrong choice : -5 Points</p>
+      </div>
+
+      <h1>I am WHICH Polygon</h1>
+
+      <div id="userChoice">
+        <h3>Select your Polygon :</h3>
+        <select name="polygen" id="polygons">
+          <option value="" disabled selected>Select any Polygon</option>
+          <option value="circle" class="txt">Circle</option>
+          <option value="cone" class="txt">Cone</option>
+          <option value="rectangle" class="txt">Rectangle</option>
+          <option value="parallogram" class="txt">Parallogram</option>
+          <option value="rhombus" class="txt">Rhombus</option>
+          <option value="triangle" class="txt">Triangle</option>
+        </select>
+      </div>
+
+      <div id="imgOuter">
+        <div id="imgDiv">
+          <img id="imgTag" src="" alt="imageObject" />
+        </div>
+      </div>
+
+      <div id="butDiv">
+        <button id="playButton" class="but">Play</button>
+
+        <button id="stopButton" class="but">Stop</button>
+      </div>
+
+      <div id="resetDiv">
+        <button id="resetGame" class="but resetTheGame">Reset the Game</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
